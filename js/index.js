@@ -277,7 +277,7 @@ jQuery.extend( jQuery.easing,
 			}
 				
 			// setup defaults if arguments aren't specified
-			if (arguments.length < 1 || xpos === null) xpos = "1%";
+			if (arguments.length < 1 || xpos === null) xpos = "30%";
 			if (arguments.length < 2 || speedFactor === null) speedFactor = 0.5;
 			if (arguments.length < 3 || outerHeight === null) outerHeight = true;
 			
@@ -315,7 +315,7 @@ jQuery.extend( jQuery.easing,
 	});
 	function parallaxInit() {
 		jQuery('.parallax').each(function(){
-			jQuery(this).parallax("1%", 0.5);
+			jQuery(this).parallax("30%", 0.5);
 		});
 	}
 
