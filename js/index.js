@@ -315,7 +315,7 @@ jQuery.extend( jQuery.easing,
 	});
 	function parallaxInit() {
 		jQuery('.parallax').each(function(){
-			jQuery(this).parallax("50%", 0.5);
+			jQuery(this).parallax("1%", 0.5);
 		});
 	}
 
