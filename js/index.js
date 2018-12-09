@@ -277,7 +277,7 @@ jQuery.extend( jQuery.easing,
 			}
 				
 			// setup defaults if arguments aren't specified
-			if (arguments.length < 1 || xpos === null) xpos = "50%";
+			if (arguments.length < 1 || xpos === null) xpos = "1%";
 			if (arguments.length < 2 || speedFactor === null) speedFactor = 0.5;
 			if (arguments.length < 3 || outerHeight === null) outerHeight = true;
 			
